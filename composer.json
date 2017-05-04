@@ -1,0 +1,16 @@
+{
+  "name" : "nrscommunity",
+  "require" : {
+    "zendframework/zendframework" : ">=3.0.0",
+    "zendframework/zend-router" : ">=3.0.2"
+  },
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ],
+  "autoload" : {
+    "psr-4" : {
+      "Application\\" : "module/Application/src/"
+    }
+  }
+}
